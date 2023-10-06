@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  time: 2023-10-05 16:14:02
+  appointment: one
+
+two:
+  time: 2023-10-05 16:14:02
+  appointment: two

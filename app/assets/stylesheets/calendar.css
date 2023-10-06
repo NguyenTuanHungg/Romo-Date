@@ -1,0 +1,53 @@
+.fc-day, .fc-day-top {
+    font-size: 12px;
+    padding: 5px;
+    height: 40px; /* Đặt chiều cao */
+    width: 60px;
+}
+#calendar {
+    width: 90%;
+    height: 21rem;
+}
+.fc-scroller .fc-scroller-liquid-absolute{
+    overflow: auto;
+}
+.fc-daygrid-day-frame:hover{
+    background-color: #B5013E;
+}
+/* Đặt màu nền của ô không có ngày là trắng */
+.fc-daygrid-day.fc-day {
+    background-color: #fff;
+    text-align: center;
+}
+.fc-toolbar-title {
+    text-align: center !important;
+}
+.fc-today-button {
+    display: none !important;
+}
+.fc .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0.1em;
+}
+
+/* Căn giữa nút prev và next */
+.fc-toolbar-chunk {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.fc .fc-toolbar-title {
+    font-size: 1em;
+    margin: 0px;
+}
+.fc-button-group{
+    display: none !important;
+
+}
+
+.fc-daygrid tbody tr:first-child {
+    background-color: #ccc; /* Chọn màu xám tùy ý */
+}
+.fc-daygrid-day.fc-day.fc-day-today.fc-daygrid-day-frame:focus {
+    background-color: #f0f0f0; /* Đổi màu viền khi ô được focus */
+}
